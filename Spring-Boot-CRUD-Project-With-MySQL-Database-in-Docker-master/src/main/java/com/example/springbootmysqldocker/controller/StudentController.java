@@ -27,4 +27,9 @@ public class StudentController {
     public String message() {
     	return "Hiii From Spring Boot Mysql Jenkins test data";
     }
+    
+    @GetMapping("/message1")
+    public String message1() {
+    	return "Hiii naya message hai data check krne k liye";
+    }
 }
