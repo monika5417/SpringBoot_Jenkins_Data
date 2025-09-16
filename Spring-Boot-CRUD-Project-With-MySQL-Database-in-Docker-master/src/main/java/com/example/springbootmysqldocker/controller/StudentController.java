@@ -30,6 +30,6 @@ public class StudentController {
     
     @GetMapping("/message1")
     public String message1() {
-    	return "Hiii naya message hai data check krne k liye";
+    	return "Hiii abhi hamne puranan message change kr diya hai";
     }
 }
