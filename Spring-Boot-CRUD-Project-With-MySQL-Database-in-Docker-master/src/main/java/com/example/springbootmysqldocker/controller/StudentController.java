@@ -32,4 +32,10 @@ public class StudentController {
     public String message1() {
     	return "Hiii abhi hamne puranan message change kr diya hai";
     }
+    
+    @GetMapping("/message2")
+    public String message2() {
+    	return "Hiii abhi ///////////////fdsjgajhhhhhhhhhhhhhhhhhhhhsssssssssssssssss";
+    }
+    
 }
